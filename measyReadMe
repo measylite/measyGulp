@@ -1,0 +1,29 @@
+Make a Jason file.
+
+$ npm init 
+
+Add Dependiencies in package.json file
+$ npm install --save-dev [package you want to install]
+
+This will update our package.json file devDependencies
+$ npm install --save-dev gulp
+$ npm install --save-dev gulp-util
+$ npm install --save-dev gulp-concat
+$ npm install --save-dev gulp-browserify
+$ npm install --save-dev gulp-connect
+
+Create a gulpfile.js in root to tell gulp what to do when it runs
+Use nodeJS require command to pull in library.
+
+var gulp = require('gulp');
+
+gulp.task('log',function() {
+	
+});
+
+Sass is installed with Compass, needs ruby to run, update ruby
+$ sudo gem update --system
+$ sudo gem install compass
+
+
+
