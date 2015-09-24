@@ -25,5 +25,8 @@ Sass is installed with Compass, needs ruby to run, update ruby
 $ sudo gem update --system
 $ sudo gem install compass
 
+Set enviornment variable to production Node JS feature. Notice your changes in production. 
+$ NODE_ENV=production gulp
+
 
 
